@@ -1,0 +1,7 @@
+[submodule "roles/django_app"]
+	path = roles/django_app
+	url = git@github.com:Solomon1239/ansible-role-django_app.git
+
+[submodule "roles/docker"]
+	path = roles/docker
+	url = git@github.com:Solomon1239/ansible-role-docker.git

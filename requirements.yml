@@ -1,0 +1,6 @@
+---
+- src: git+https://github.com/Solomon1239/ansible-role-docker.git
+  name: docker
+
+- src: git+https://github.com/Solomon1239/ansible-role-django_app.git
+  name: django_app
