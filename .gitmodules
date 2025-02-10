@@ -1,0 +1,39 @@
+[submodule "roles/django_app"]
+	path = roles/django_app
+	url = git@github.com:Solomon1239/ansible-role-django_app.git
+
+[submodule "roles/docker"]
+	path = roles/docker
+	url = git@github.com:Solomon1239/ansible-role-docker.git
+
+[submodule "roles/nginx"]
+	path = roles/nginx
+	url = git@github.com:Solomon1239/ansible-role-nginx.git
+
+[submodule "roles/openvpn"]
+	path = roles/openvpn
+	url = git@github.com:Solomon1239/ansible-role-openvpn.git
+
+[submodule "roles/postgresql"]
+	path = roles/postgresql
+	url = git@github.com:Solomon1239/ansible-role-postgresql.git
+
+[submodule "roles/prometheus"]
+        path = roles/prometheus
+        url = git@github.com:Solomon1239/ansible-role-prometheus.git
+
+[submodule "roles/node_exporter"]
+        path = roles/node_exporter
+        url = git@github.com:Solomon1239/ansible-role-node_exporter.git
+
+[submodule "roles/grafana"]
+        path = roles/grafana
+        url = git@github.com:Solomon1239/ansible-role-grafana.git
+
+[submodule "roles/promtail_loki"]
+        path = roles/promtail_loki
+        url = git@github.com:Solomon1239/ansible-role-promtail_loki.git
+
+[submodule "roles/spring_boot"]
+        path = roles/spring_boot
+        url = git@github.com:Solomon1239/ansible-role-spring_boot.git

@@ -1,0 +1,40 @@
+---
+- src: git+https://github.com/Solomon1239/ansible-role-docker.git
+  scm: git
+  name: docker
+
+- src: git+https://github.com/Solomon1239/ansible-role-nginx.git
+  scm: git
+  name: nginx
+
+- src: git+https://github.com/Solomon1239/ansible-role-django_app.git
+  scm: git
+  name: django_app
+
+- src: git+https://github.com/Solomon1239/ansible-role-openvpn.git
+  scm: git
+  name: openvpn
+
+- src: git+https://github.com/Solomon1239/ansible-role-postgresql.git
+  scm: git
+  name: postgresql
+
+- src: git+https://github.com/Solomon1239/ansible-role-prometheus.git
+  scm: git
+  name: prometheus
+
+- src: git+https://github.com/Solomon1239/ansible-role-node_exporter.git
+  scm: git
+  name: node_exporter
+
+- src: git+https://github.com/Solomon1239/ansible-role-grafana.git
+  scm: git
+  name: grafana
+
+- src: git+https://github.com/Solomon1239/ansible-role-promtail_loki.git
+  scm: git
+  name: promtail_loki
+
+- src: git+https://github.com/Solomon1239/ansible-role-spring_boot.git
+  scm: git
+  name: spring_boot
