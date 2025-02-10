@@ -1,0 +1,12 @@
+galaxy_info:
+  author: Petr Moshkov
+  description: OpenVPN server setup role
+  company: ITMO
+  license: BSD
+  min_ansible_version: 2.18
+  platforms:
+    - name: Ubuntu
+      versions:
+        - 20.04
+  role_name: openvpn
+dependencies: []

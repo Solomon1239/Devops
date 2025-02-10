@@ -1,0 +1,11 @@
+---
+- hosts: app
+  become: yes
+  roles:
+    - docker
+    - django_app
+
+- hosts: web
+  become: yes
+  roles:
+    - nginx
